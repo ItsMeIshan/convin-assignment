@@ -9,7 +9,9 @@
     <div>
       <div>
         {% if not status %}
-        <a href="init" onclick="gmailAuthenticate()" title="Google">Google</a>
+        <a href="init" onclick="calendarAuthenticate()" title="Google"
+          >Google</a
+        >
         {% else %}
         <p>Your are verified</p>
         {% endif %}

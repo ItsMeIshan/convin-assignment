@@ -1,4 +1,4 @@
-function gmailAuthenticate() {
+function calendarAuthenticate() {
   $.ajax({
     type: "GET",
     url: "ajax/init",

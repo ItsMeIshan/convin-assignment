@@ -3,6 +3,6 @@ from . import views
 
 urlpatterns = [
     path('init', views.GoogleCalendarInitView, name='init'),
-    path('oauth2callback', views.auth_return, name='callback'),
-    path('', views.home, name='home'),
+    path('redirect', views.GoogleCalendarRedirectView, name='redirect'),
+    # path('', views.home, name='home'),
 ]
